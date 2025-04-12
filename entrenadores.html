@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gimnasio Energía</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>Gimnasio Energía</h1>
+    <nav class="mega-menu">
+      
+      <ul>
+        <li class="dropdown">
+          <a href="#">Menú</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="clases.html">Clases</a></li>
+              <li><a href="entrenadores.html">Entrenadores</a></li>
+              <li><a href="precios.html">Precios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="video/entrenamiento.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <div class="overlay">
+      <h2 class="animado">¡Transforma tu cuerpo hoy!</h2>
+    </div>
+  </section>
+
+  <main>
+    <section class="entrenadores">
+      <h2>Nuestros Entrenadores</h2>
+      <div class="tarjetas-entrenadores">
+
+        <div class="tarjeta">
+          <div class="contenido">
+            <div class="frente">
+              <img src="img/entrenador1.jpg" alt="Entrenador 1">
+              <h3>Mike Smith</h3>
+            </div>
+            <div class="dorso">
+              <h3>Mike Smith</h3>
+              <p>Especialista en fuerza y musculación.</p>
+
+             <!-- Barras de habilidades -->
+              <div class="habilidad">
+                <label>Fuerza</label>
+                <div class="barra">
+                  <div class="nivel fuerza" style="--valor: 90%;"></div>
+                </div>
+              </div>
+              <div class="habilidad">
+                <label>Flexibilidad</label>
+                <div class="barra">
+                  <div class="nivel flexibilidad" style="--valor: 70%;"></div>
+                </div>
+              </div>
+              <div class="habilidad">
+                <label>Resistencia</label>
+                <div class="barra">
+                  <div class="nivel resistencia" style="--valor: 60%;"></div>
+                </div>
+              </div>
+              <!-- Estrellas -->
+              <div class="rating">
+                ★★★★☆
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="tarjeta">
+            <div class="contenido">
+              <div class="frente">
+                <img src="img/entrenador2.jpg" alt="Entrenador 2">
+                <h3>Juan Carlos</h3>
+              </div>
+              <div class="dorso">
+                <h3>Juan Carlos</h3>
+                <p>Especialista en zumba y cardio.</p>
+  
+                <!-- Barras de habilidades -->
+                <div class="habilidad">
+                  <label>Fuerza</label>
+                  <div class="barra">
+                    <div class="nivel fuerza" style="--valor: 70%;"></div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <label>Flexibilidad</label>
+                  <div class="barra">
+                    <div class="nivel flexibilidad" style="--valor: 70%;"></div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <label>Resistencia</label>
+                  <div class="barra">
+                    <div class="nivel resistencia" style="--valor: 90%;"></div>
+                  </div>
+                </div>
+                <!-- Estrellas -->
+                <div class="rating">
+                  ★★★★☆
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <form>
+      <label for="email">Suscribite al newsletter:</label>
+      <input type="email" id="email" placeholder="Tu email">
+      <button>Suscribirme</button>
+    </form>
+    <div class="redes-sociales">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.openstreetmap.org/export/embed.html"></iframe>
+    </div>
+  </footer>
+
+</body>
+</html>

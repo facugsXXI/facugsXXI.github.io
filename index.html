@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gimnasio Energía</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+ 
+  <!-- Encabezado con mega menú -->
+  <header>
+    <h1>Gimnasio Energía</h1>
+    <nav class="mega-menu">
+      
+      <ul>
+        <li class="dropdown">
+          <a href="#">Menú</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="clases.html">Clases</a></li>
+              <li><a href="entrenadores.html">Entrenadores</a></li>
+              <li><a href="precios.html">Precios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Sección Hero con video de fondo -->
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="video/entrenamiento.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <div class="overlay">
+      <h2 class="animado">¡Transforma tu cuerpo hoy!</h2>
+    </div>
+  </section>
+
+  <!-- Clases destacadas -->
+  <section class="clases">
+    <h2>Nuestras Clases</h2>
+    <div class="cards">
+      <article class="card crossfit">Crossfit</article>
+      <article class="card zumba">Zumba</article>
+      <article class="card yoga">Yoga</article>
+    </div>
+  </section>
+
+  <!-- Contador animado -->
+  <section class="contador">
+    <h3><span class="numero">255+</span> socios satisfechos</h3>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+    <div class="carrusel">
+      <article>“¡Excelente atención y entrenadores!”</article>
+      <article>“Logré mis objetivos en 3 meses.”</article>
+      <article>“Ambiente muy motivador.”</article>
+      <article>“Maquinas modernas.”</article>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <form>
+      <label for="email">Suscribite al newsletter:</label>
+      <input type="email" id="email" placeholder="Tu email">
+      <button>Suscribirme</button>
+    </form>
+    <div class="redes-sociales">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.openstreetmap.org/export/embed.html"></iframe>
+    </div>
+  </footer>
+
+</body>
+</html>

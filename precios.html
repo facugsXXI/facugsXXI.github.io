@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gimnasio Energía</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+ 
+  
+  <header>
+    <h1>Gimnasio Energía</h1>
+    <nav class="mega-menu">
+      
+      <ul>
+        <li class="dropdown">
+          <a href="#">Menú</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="clases.html">Clases</a></li>
+              <li><a href="entrenadores.html">Entrenadores</a></li>
+              <li><a href="precios.html">Precios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="video/entrenamiento.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <div class="overlay">
+      <h2 class="animado">¡Transforma tu cuerpo hoy!</h2>
+    </div>
+  </section>
+
+  <h2>Comparador de Planes</h2>
+  
+  <section class="comparador-planes">
+    
+  
+    <!-- Toggle entre mensual y anual -->
+    <section class="toggle-precio">
+      <input type="radio" name="plan" id="mensual" checked>
+      <label for="mensual">Mensual</label>
+  
+      <input type="radio" name="plan" id="anual">
+      <label for="anual">Anual</label>
+    
+  
+    <!-- Tabla de precios -->
+    <table class="tabla-precios">
+      <thead>
+        <tr>
+          <th>Planes</th>
+          <th>Yoga</th>
+          <th>CrossFit</th>
+          <th>Zumba</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="tooltip">Basico<span class="tooltip-text">Clases semanales limitadas</span></span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 4000</span>
+            <span class="precio anual">$ 36000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 4500</span>
+            <span class="precio anual">$ 40000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 4200</span>
+            <span class="precio anual">$ 38000</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="tooltip">Avanzado<span class="tooltip-text">Todos los dias. Incluye fin de semana</span></span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 5000</span>
+            <span class="precio anual">$ 45000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 5500</span>
+            <span class="precio anual">$ 50000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 5200</span>
+            <span class="precio anual">$ 46000</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="tooltip">Full<span class="tooltip-text">Entrenador personalizado con planificación a la medida</span></span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 6000</span>
+            <span class="precio anual">$ 54000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 6500</span>
+            <span class="precio anual">$ 58000</span>
+          </td>
+          <td>
+            <span class="precio mensual">$ 6200</span>
+            <span class="precio anual">$ 56000</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  </section>
+  
+
+ 
+  <footer>
+    <form>
+      <label for="email">Suscribite al newsletter:</label>
+      <input type="email" id="email" placeholder="Tu email">
+      <button>Suscribirme</button>
+    </form>
+    <div class="redes-sociales">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.openstreetmap.org/export/embed.html"></iframe>
+    </div>
+  </footer>
+  
+</body>
+</html>

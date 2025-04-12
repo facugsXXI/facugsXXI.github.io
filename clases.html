@@ -1,0 +1,109 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gimnasio Energía</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>Gimnasio Energía</h1>
+    <nav class="mega-menu">
+      
+      <ul>
+        <li class="dropdown">
+          <a href="#">Menú</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="clases.html">Clases</a></li>
+              <li><a href="entrenadores.html">Entrenadores</a></li>
+              <li><a href="precios.html">Precios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="video/entrenamiento.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <div class="overlay">
+      <h2 class="animado">¡Transforma tu cuerpo hoy!</h2>
+    </div>
+  </section>
+  
+
+  <section class="filtro-clases">
+    <h2>Filtrar por Categoría</h2>
+    <input type="radio" name="categoria" id="todos" checked>
+    <label for="todos">Todos</label>
+    <input type="radio" name="categoria" id="zumba">
+    <label for="zumba">Zumba</label>
+    <input type="radio" name="categoria" id="crossfit">
+    <label for="crossfit">CrossFit</label>
+    <input type="radio" name="categoria" id="yoga">
+    <label for="yoga">Yoga</label>
+
+    <div class="galeria">
+      <div class="clase zumba"><div class="overlay3">Zumba</div></div>
+      <div class="clase crossfit"><div class="overlay3">CrossFit</div></div>
+      <div class="clase yoga"><div class="overlay3">Yoga</div></div>
+    </div>
+
+    <div class="tablas-horarios">
+        <div class="tabla zumba">
+          <h3>Horarios Zumba</h3>
+          <table>
+            <tr><th>Día</th><th>Hora</th></tr>
+            <tr><td>Lunes</td><td>08:00 - 09:00</td></tr>
+            <tr><td>Miércoles</td><td>19:00 - 20:00</td></tr>
+          </table>
+        </div>
+      
+        <div class="tabla crossfit">
+          <h3>Horarios CrossFit</h3>
+          <table>
+            <tr><th>Día</th><th>Hora</th></tr>
+            <tr><td>Martes</td><td>10:00 - 11:00</td></tr>
+            <tr><td>Jueves</td><td>18:00 - 19:00</td></tr>
+          </table>
+        </div>
+      
+        <div class="tabla yoga">
+          <h3>Horarios Yoga</h3>
+          <table>
+            <tr><th>Día</th><th>Hora</th></tr>
+            <tr><td>Viernes</td><td>09:00 - 10:00</td></tr>
+            <tr><td>Sábado</td><td>10:00 - 11:00</td></tr>
+          </table>
+        </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <form>
+      <label for="email">Suscribite al newsletter:</label>
+      <input type="email" id="email" placeholder="Tu email">
+      <button>Suscribirme</button>
+    </form>
+    <div class="redes-sociales">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.openstreetmap.org/export/embed.html"></iframe>
+    </div>
+  </footer>
+
+</body>
+</html>
