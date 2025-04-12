@@ -238,8 +238,8 @@ body {
   }
   .mapa{
     display: block;
-    width: fit-content; /* Se ajusta al ancho del iframe */
-    margin: 2em auto;   /* Centra horizontalmente */
+    width: fit-content; 
+    margin: 2em auto; 
   }
   /* CLASES HTML */
   /* Filtro clases */
